@@ -1120,9 +1120,9 @@ ul { list-style: none; }
   .badge-bottom { left: -10px; }
   .beschwerden-grid { grid-template-columns: 1fr; }
   .techniken-grid { grid-template-columns: 1fr; }
-  .stats-grid { gap: 0; }
-  .stat-item { padding: 10px 20px; }
-  .stat-divider { width: 100%; height: 1px; }
+  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(255,255,255,0.1); }
+  .stat-item { padding: 16px 20px; background: var(--forest); }
+  .stat-divider { display: none; }
   .nav-menu { display: none; }
   .nav-toggle { display: flex; }
   .nav-menu.open {
